@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_gradient">
+
+    <ImageView
+        android:id="@+id/ivExit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/exit"
+        android:layout_gravity="end"
+        android:tint="#ffffff"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="18dp"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/ivSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sunrise"
+        android:tint="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02:02 AM"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
